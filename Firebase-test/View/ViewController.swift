@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import FirebaseAnalytics
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+//        Analytics.logEvent("view_loaded", parameters: [
+//            "screen": "main"
+//        ])
+        
+        view.backgroundColor = .red
     }
 
 
